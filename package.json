@@ -7,7 +7,7 @@
     "lib": "lib"
   },
   "scripts": {
-    "build-development": "webpack --config webpack/webpack.local.config.ks --progress --colors",
+    "build-development": "webpack --config webpack/webpack.local.config.js --progress --colors",
     "build-production": "webpack --config webpack/webpack.production,config.js --progress --colors",
     "watch": "webpack --config webpack.local.config.js",
     "test": "e./node_modules/karma/bin/karma start webpack/karma.config.ks --log-level debug"
