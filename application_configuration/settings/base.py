@@ -115,9 +115,9 @@ TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
         'DIRS': [os.path.join(APPS_DIR, 'templates')],
-        'APPS_DIRS': True,
+        'APP_DIRS': True,
         'OPTIONS': {
-            'context_processor': [
+            'context_processors': [
                 'django.template.context_processors.debug',
                 'django.template.context_processors.request',
                 'django.contrib.auth.context_processors.auth',
