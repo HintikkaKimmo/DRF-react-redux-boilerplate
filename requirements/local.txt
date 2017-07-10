@@ -1,0 +1,8 @@
+# Import all base requirements
+-r base.txt
+
+# Django debug toolbar
+django-debug-toobar
+
+# Code linter
+flake8

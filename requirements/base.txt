@@ -1,0 +1,21 @@
+# Django
+django
+
+# Configuration
+dj-database-url
+python-decouple
+whitenoise
+
+# Django 3rd party modules
+django-allauth
+django-extentions
+django-model-utils
+django-rest-auth
+django-webpack-loader
+djangorestframework
+
+# Python=PostgreSQL Database Adapter
+psycopg2
+
+# Timezones support
+pytz

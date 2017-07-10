@@ -14,8 +14,11 @@ Including another URLconf
     2. Add a URL to urlpatterns:  url(r'^blog/', include('blog.urls'))
 """
 from django.conf.urls import url
+from rest_framework_jwt import obstain_jwt_token
 from django.contrib import admin
 
 urlpatterns = [
+    url(r'^api-auth/', include('rest_framework.urls', namespace='rest_framework'))
     url(r'^admin/', admin.site.urls),
+    url(r'^api-token-auth/', obstain_jwt_token),
 ]
