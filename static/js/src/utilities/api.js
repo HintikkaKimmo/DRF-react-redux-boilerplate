@@ -15,7 +15,7 @@ const api = axios.create({
 api.defaults.headers.post['X-CSRFToken'] = cookie.csrftoken;
 api.defaults.headers.put['X-CSRFToken'] = cookie.csrftoken;
 api.defaults.headers.patch['X-CSRFToken'] = cookie.csrftoken;
-// api defaults.headers.delete['X-CSRFToke'] = cookie.csrftoken; Currently Axios can't set headers for DELETE
+api.defaults.headers.delete['X-CSRFToke'] = cookie.csrftoken; // Currently Axios can't set headers for DELETE fixed!
 
 // Since we are using JSON APIs, add Accept; application/json to header as default
 api.defaults.headers.get.Accept = 'application/json';
