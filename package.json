@@ -7,7 +7,10 @@
     "lib": "lib"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build-development": "webpack --config webpack/webpack.local.config.ks --progress --colors",
+    "build-production": "webpack --config webpack/webpack.production,config.js --progress --colors",
+    "watch": "webpack --config webpack.local.config.js",
+    "test": "e./node_modules/karma/bin/karma start webpack/karma.config.ks --log-level debug"
   },
   "repository": {
     "type": "git",
