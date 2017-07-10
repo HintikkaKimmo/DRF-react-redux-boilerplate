@@ -5,7 +5,7 @@ venv
 *.pyc
 __pycache__
 /bin
-/lib
+/lib/*
 /include
 
 # Python Notebook dot files
