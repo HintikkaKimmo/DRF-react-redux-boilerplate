@@ -8,11 +8,12 @@ whitenoise
 
 # Django 3rd party modules
 django-allauth
-django-extentions
+django-extensions
 django-model-utils
 django-rest-auth
 django-webpack-loader
 djangorestframework
+djangorestframework-jwt
 
 # Python=PostgreSQL Database Adapter
 psycopg2

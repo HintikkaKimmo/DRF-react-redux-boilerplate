@@ -2,7 +2,7 @@
 -r base.txt
 
 # Django debug toolbar
-django-debug-toobar
+django-debug-toolbar
 
 # Code linter
 flake8

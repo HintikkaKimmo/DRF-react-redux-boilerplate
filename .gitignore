@@ -4,6 +4,9 @@ venv
 # Python files
 *.pyc
 __pycache__
+/bin
+/lib
+/include
 
 # Python Notebook dot files
 .ipynb*
