@@ -7,3 +7,4 @@ gunicorn
 
 # Email backend
 django-anymail
+django>=3.1.13 # not directly required, pinned by Snyk to avoid a vulnerability
