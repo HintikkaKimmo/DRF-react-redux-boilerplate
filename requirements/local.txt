@@ -6,3 +6,4 @@ django-debug-toolbar
 
 # Code linter
 flake8
+django>=3.1.13 # not directly required, pinned by Snyk to avoid a vulnerability
