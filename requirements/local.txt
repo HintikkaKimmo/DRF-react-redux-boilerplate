@@ -6,3 +6,5 @@ django-debug-toolbar
 
 # Code linter
 flake8
+django>=3.2.15 # not directly required, pinned by Snyk to avoid a vulnerability
+sqlparse>=0.4.2 # not directly required, pinned by Snyk to avoid a vulnerability
