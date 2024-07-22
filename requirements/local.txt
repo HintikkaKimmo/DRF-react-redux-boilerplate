@@ -6,3 +6,4 @@ django-debug-toolbar
 
 # Code linter
 flake8
+sqlparse>=0.5.0 # not directly required, pinned by Snyk to avoid a vulnerability
