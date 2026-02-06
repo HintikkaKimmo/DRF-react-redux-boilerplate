@@ -1,1 +1,1 @@
-FROM postgres:latest
+FROM postgres:18.1-trixie
